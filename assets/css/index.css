@@ -81,7 +81,7 @@ header {
     padding-bottom: 5px;
 }
 
-.a {
+.pafin-header__right {
     display: flex;
     justify-content: flex-end;
     width: 80%;
@@ -102,7 +102,7 @@ header {
         padding-left:5px;
     }
 
-    .a {
+    .pafin-header__right {
         display: none;
     }
 
