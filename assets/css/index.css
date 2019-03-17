@@ -91,6 +91,12 @@ header {
     display: none;
 }
 
+@media screen and (max-width: 480px) {
+    .pafin-header__logo {
+        margin-left: 5px;
+        background-size: auto;
+    }
+}
 @media screen and (max-width: 899px) {
     /*ヘッダーまわりはご自由に*/
     header {
@@ -109,7 +115,8 @@ header {
     #nav-drawer {
         position: relative;
         display: inline-block;
-        padding: 26px 0;
+        margin-right: 3px;
+        padding: 25px 0;
     }
 
     /*チェックボックス等は非表示に*/
