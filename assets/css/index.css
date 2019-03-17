@@ -2,14 +2,20 @@
 
 header {
     height: 65px;
-    padding: 0 24px;
 }
 
-.header-wrap {
+.pafin-header-wrap {
+    display: flex;
     width: 100%;
+    height: 65px;
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 24px;
     background-color:#fff;
+}
+
+.pafin-header-shadow {
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
 
 .pafin-header__logo {
@@ -25,13 +31,34 @@ header {
 
 .pafin-header__nav {
     display: inline-block;
-    float: right;
 }
 
 .pafin-header__nav-list {
+    margin-bottom: 0;
     line-height: 65px;
 }
 
 .pafin-header__nav-item {
     display: inline-block;
+    padding: 0 10px;
+}
+
+.pafin-header__sns {
+    line-height: 70px;
+}
+
+.pafin-header__sns-list {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding: 0
+}
+
+.pafin-header__sns-item {
+    padding-left: 10px;
+    list-style: none;
+}
+
+a {
+    float: right;
 }
