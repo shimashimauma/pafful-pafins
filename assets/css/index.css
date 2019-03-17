@@ -176,6 +176,7 @@ header {
         background: #fff;
         transition: .3s ease-in-out;
         -webkit-transform: translateX(-105%);
+        -ms-transform:  translateX(-105%);
         transform: translateX(-105%);
     }
 
@@ -196,6 +197,7 @@ header {
 
     #nav-input:checked ~ #pafin-nav-content {
         -webkit-transform: translateX(0%);
+        -ms-transform:  translateX(0%);
         transform: translateX(0%);
         box-shadow: 6px 0 25px rgba(0,0,0,.15);
     }
