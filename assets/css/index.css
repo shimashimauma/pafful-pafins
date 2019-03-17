@@ -87,7 +87,7 @@ header {
     width: 80%;
 }
 
-#nav-drawer {
+#pafin-nav-drawer {
     display: none;
 }
 
@@ -112,7 +112,7 @@ header {
         margin: 0 auto;
     }
 
-    #nav-drawer {
+    #pafin-nav-drawer {
         position: relative;
         display: inline-block;
         margin-right: 3px;
@@ -165,7 +165,7 @@ header {
     }
 
     /*中身*/
-    #nav-content {
+    #pafin-nav-content {
         overflow: auto;
         position: fixed;
         top: 0;
@@ -180,13 +180,13 @@ header {
         transform: translateX(-105%);/*左に隠しておく*/
     }
 
-    #nav-content > ul > li {
+    #pafin-nav-content > ul > li {
         list-style: none;
         margin-top: 10px;
         padding: 10px 0;
     }
 
-    #nav-content > ul > li a {
+    #pafin-nav-content > ul > li a {
         color: #333;
     }
 
@@ -196,7 +196,7 @@ header {
         opacity: .5;
     }
 
-    #nav-input:checked ~ #nav-content {
+    #nav-input:checked ~ #pafin-nav-content {
         -webkit-transform: translateX(0%);
         transform: translateX(0%);/*中身を表示*/
         box-shadow: 6px 0 25px rgba(0,0,0,.15);
