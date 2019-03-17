@@ -1,1 +1,37 @@
 @charset "utf-8";
+
+header {
+    height: 65px;
+    padding: 0 24px;
+}
+
+.header-wrap {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color:#fff;
+}
+
+.pafin-header__logo {
+    line-height: 65px;
+    display: inline-block;
+    width: 280px;
+    background: url(../img/logo.svg) no-repeat center left;
+    background-size: 280px;
+    white-space: nowrap;
+    text-indent: 100%;
+    overflow: hidden;
+}
+
+.pafin-header__nav {
+    display: inline-block;
+    float: right;
+}
+
+.pafin-header__nav-list {
+    line-height: 65px;
+}
+
+.pafin-header__nav-item {
+    display: inline-block;
+}
