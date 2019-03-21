@@ -98,6 +98,10 @@ header {
     background-position: 0 17%;
 }
 
+.pafin-hero h1 {
+    display: none;
+}
+
 @media screen and (max-width: 480px) {
     .pafin-header__logo {
         margin-left: 5px;
