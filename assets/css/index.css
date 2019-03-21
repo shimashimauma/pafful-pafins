@@ -91,10 +91,21 @@ header {
     display: none;
 }
 
+.pafin-hero {
+    height: 500px;
+    background: url(../img/image01.svg) no-repeat;
+    background-size: cover;
+    background-position: 0 17%;
+}
+
 @media screen and (max-width: 480px) {
     .pafin-header__logo {
         margin-left: 5px;
         background-size: auto;
+    }
+    .pafin-hero {
+        height: 350px;
+        background-position: 93% 17%;
     }
 }
 @media screen and (max-width: 899px) {
