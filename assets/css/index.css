@@ -264,6 +264,10 @@ main {
     .pafin-introduction__img {
         margin: 0;
     }
+    .pafin-introduction__text {
+        margin: 20px auto 0;
+        padding: 0 15px;
+    }
     footer {
         text-align: right;
         font-size: .8rem;
