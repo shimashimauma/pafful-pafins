@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     color: #1A1A1A;
 }
@@ -16,6 +20,7 @@ header {
     margin: 0 auto;
     padding: 0 24px;
     background-color:#fff;
+    font-size: 1.6rem;
 }
 
 .pafin-header-shadow {
@@ -115,7 +120,7 @@ main {
 
 .pafin-introduction__title {
     margin-top: 3rem;
-    font-size: 1.9rem;
+    font-size: 2.8rem;
     font-weight: 600;
     text-align: center;
     line-height: 160%;
@@ -134,7 +139,7 @@ main {
 .pafin-introduction__text {
     max-width: 450px;
     margin-left: 20px;
-    font-size: 1rem;
+    font-size: 1.6rem;
     line-height: 200%;
 }
 
@@ -254,7 +259,7 @@ main {
     }
     .pafin-introduction__title {
         margin-bottom: 2rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .pafin-introduction__contents {
         flex-direction: column;
@@ -267,6 +272,7 @@ main {
     .pafin-introduction__text {
         margin: 20px auto 0;
         padding: 0 15px;
+        font-size: 1.4rem;
     }
     footer {
         text-align: right;
