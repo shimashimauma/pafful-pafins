@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #1A1A1A;
+}
+
 header {
     height: 65px;
 }
@@ -12,6 +20,7 @@ header {
     margin: 0 auto;
     padding: 0 24px;
     background-color:#fff;
+    font-size: 1.6rem;
 }
 
 .pafin-header-shadow {
@@ -91,6 +100,10 @@ header {
     display: none;
 }
 
+main {
+    background-color: #FDF8E8;
+}
+
 .pafin-hero {
     height: 500px;
     background: url(../img/image01.svg) no-repeat;
@@ -100,6 +113,31 @@ header {
 
 .pafin-hero h1 {
     display: none;
+}
+
+.pafin-introduction__title {
+    margin-top: 3rem;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 160%;
+}
+
+.pafin-introduction__contents {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.pafin-introduction__img {
+    margin-right: 50px;
+}
+
+.pafin-introduction__text {
+    max-width: 450px;
+    margin-left: 20px;
+    font-size: 1.6rem;
+    line-height: 200%;
 }
 
 @media screen and (max-width: 480px) {
@@ -215,6 +253,23 @@ header {
         -ms-transform:  translateX(0%);
         transform: translateX(0%);
         box-shadow: 6px 0 25px rgba(0,0,0,.15);
+    }
+    .pafin-introduction__title {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+    .pafin-introduction__contents {
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .pafin-introduction__img {
+        margin: 0;
+    }
+    .pafin-introduction__text {
+        margin: 20px auto 0;
+        padding: 0 15px;
+        font-size: 1.4rem;
     }
     footer {
         text-align: right;
