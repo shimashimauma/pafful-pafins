@@ -4,7 +4,7 @@
     --main-gutter: 12px;
     --main-position: center;
     --main-lh: 1.5;
-  }
+}
 
 html {
     font-size: 62.5%;
@@ -12,6 +12,7 @@ html {
 
 body {
     color: #1A1A1A;
+    background-color: #FDF8E8;
 }
 
 header {
@@ -30,6 +31,7 @@ header {
 }
 
 .pafin-header-shadow {
+    background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
 
@@ -104,10 +106,6 @@ header {
 
 #pafin-nav-drawer {
     display: none;
-}
-
-main {
-    background-color: #FDF8E8;
 }
 
 .pafin-hero {
