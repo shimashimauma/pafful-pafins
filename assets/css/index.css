@@ -6,6 +6,7 @@ html {
 
 body {
     color: #1A1A1A;
+    background-color: #FDF8E8;
 }
 
 header {
@@ -24,6 +25,7 @@ header {
 }
 
 .pafin-header-shadow {
+    background-color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,.26);
 }
 
@@ -100,10 +102,6 @@ header {
     display: none;
 }
 
-main {
-    background-color: #FDF8E8;
-}
-
 .pafin-hero {
     height: 500px;
     background: url(../img/image01.svg) no-repeat;
@@ -115,6 +113,10 @@ main {
     display: none;
 }
 
+.pafin-introduction {
+    margin: 5rem 0;
+}
+
 .pafin-introduction__title {
     margin-top: 3rem;
     font-size: 2.8rem;
@@ -123,20 +125,30 @@ main {
     line-height: 160%;
 }
 
+.pafin-introduction__title::after {
+    display: block;
+    content: "";
+    width: 120px;
+    height: 20px;
+    margin: 1rem auto;
+    text-align: center;
+    background: url(../img/title_01.svg) no-repeat;
+}
+
 .pafin-introduction__contents {
-    display: flex;
-    justify-content: center;
-    margin: 3rem 0;
+    margin: 3rem auto 0;
 }
 
 .pafin-introduction__img {
-    margin-right: 50px;
+    margin: 0 auto 4rem;
+    text-align: center;
 }
 
 .pafin-introduction__text {
+    margin: 0 auto;
     max-width: 450px;
-    margin-left: 20px;
     font-size: 1.6rem;
+    text-align: center;
     line-height: 200%;
 }
 
