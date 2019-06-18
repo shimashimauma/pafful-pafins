@@ -7,6 +7,7 @@ html {
 body {
     color: #1A1A1A;
     background-color: #FDF8E8;
+    background-image: url(../img/back-image.png);
 }
 
 header {
@@ -113,11 +114,11 @@ header {
     display: none;
 }
 
-.pafin-introduction {
-    margin: 5rem 0;
+.pafin-section {
+    margin: 10rem 0;
 }
 
-.pafin-introduction__title {
+.pafin-section__title {
     margin-top: 3rem;
     font-size: 2.8rem;
     font-weight: 600;
@@ -125,7 +126,7 @@ header {
     line-height: 160%;
 }
 
-.pafin-introduction__title::after {
+.pafin-section__title::after {
     display: block;
     content: "";
     width: 120px;
@@ -133,6 +134,12 @@ header {
     margin: 1rem auto;
     text-align: center;
     background: url(../img/title_01.svg) no-repeat;
+}
+
+.pafin-section__descripton {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    text-align: center;
 }
 
 .pafin-introduction__contents {
@@ -150,6 +157,38 @@ header {
     font-size: 1.6rem;
     text-align: center;
     line-height: 200%;
+}
+
+/*character*/
+
+.pafin-character__wrap {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 5rem 0;
+}
+
+.pafin-character__box {
+    align-self: flex-end;
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+}
+
+.pafin-character__img {
+    margin: 0 auto 2rem;
+}
+
+.pafin-character__name {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.pafin-character__description {
+    text-align: center;
+    font-size: 12px;
+    line-height: 2rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -266,7 +305,7 @@ header {
         transform: translateX(0%);
         box-shadow: 6px 0 25px rgba(0,0,0,.15);
     }
-    .pafin-introduction__title {
+    .pafin-section__title {
         margin-bottom: 2rem;
         font-size: 2rem;
     }
