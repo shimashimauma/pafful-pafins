@@ -369,6 +369,9 @@ header {
         width: 100%;
         margin: 3rem auto;
     }
+    .pafin-glide-box {
+        width:  300px;
+    }
     footer {
         text-align: right;
         font-size: .8rem;
