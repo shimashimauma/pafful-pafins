@@ -29,7 +29,12 @@
         <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.2.7/dist/css/glide.core.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.2.7/dist/css/glide.theme.min.css" rel="stylesheet">
         <title>PAFFUL PAFIN'S - パッフルパフィンズ</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./assets/js/base.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.2.7/dist/glide.min.js"></script>
     </head>
     <body>
         <header class="pafin-header-shadow">
@@ -104,8 +109,8 @@
                         <img src="./assets/img/img02.svg" width="150px" alt="くまのキャラクター、パフィンの画像">
                     </div>
                     <div class="pafin-introduction__text">
-                        <p>おっとりしてマイペースなくまの男の子。<br>ある日草むらで昼寝をしていると、あるひとりの少女に見つけられました。<br>
-                            おや？庭のどこからか大きな音が聞こえてきました。ライオンのうなり声のような、おっかない音です。<br>
+                        <p>おっとりして<span class="pafin-text-wavy">マイペースな</span>くまの男の子。<br>ある日草むらで昼寝をしていると、あるひとりの少女に見つけられました。<br>
+                            おや？庭のどこからか<span class="pafin-text-dot">大きな音</span>が聞こえてきました。ライオンのうなり声のような、おっかない音です。<br>
                             ちょっぴり怖かったはるこさんは、勇気を出して音が聞こえてくる草の茂みを、おそるおそるかきわけました</p>
                     </div>
                 </div>
@@ -153,6 +158,25 @@
                 <h2 class="pafin-section__title">
                     パフィンのイラストレーション
                 </h2>
+                <div id="glide" class="pafin-glide-box">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide"><img src="./assets/img/pafin_cafe.jpg" width="600px"></li>
+                            <li class="glide__slide"><img src="./assets/img/window.jpg" width="600px"></li>
+                            <li class="glide__slide"><img src="./assets/img/room.jpg" width="600px"></li>
+                            <li class="glide__slide"><img src="./assets/img/night.jpg" width="600px"></li>
+                        </ul>
+                    </div>
+                    <div class="glide__bullets pafin-glide-bullets" data-glide-el="controls[nav]">
+                        <button class="glide__bullet" data-glide-dir="=0"></button>
+                        <button class="glide__bullet" data-glide-dir="=1"></button>
+                        <button class="glide__bullet" data-glide-dir="=2"></button>
+                        <button class="glide__bullet" data-glide-dir="=3"></button>
+                    </div>
+                    <script>
+                        new Glide('#glide', {autoplay: 3000}).mount()
+                    </script>
+                </div>
             </section>
 
             <section class="pafin-section">
@@ -160,6 +184,12 @@
                     SNS
                 </h2>
             </section>
+
+            <footer>
+                <div class="pafin-footer__inner">
+                    ©️ 2018 PAFFUL PAFIN'S
+                </div>
+            </footer>
         </main>
     </body>
 </html>

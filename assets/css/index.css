@@ -142,6 +142,15 @@ header {
     text-align: center;
 }
 
+.pafin-text-wavy {
+    text-decoration: underline wavy #D72E46;
+}
+
+.pafin-text-dot {
+    -webkit-text-emphasis: circle #D72E46;
+    text-emphasis: circle #D72E46;
+}
+
 .pafin-introduction__contents {
     margin: 3rem auto 0;
 }
@@ -164,7 +173,6 @@ header {
 .pafin-character__wrap {
     display: flex;
     justify-content: center;
-    align-content: flex-start;
     margin: 5rem 0;
 }
 
@@ -189,6 +197,37 @@ header {
     text-align: center;
     font-size: 12px;
     line-height: 2rem;
+}
+
+/* illust */
+
+.pafin-glide-box {
+    width:  100%;
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.glide__bullets {
+    display: block !important;
+    position: relative  !important;
+    bottom: 0 !important;
+}
+
+/* footer */
+
+.pafin-footer__inner {
+    margin: 40px 0;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.pafin-footer__inner::before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 100px;
+    margin: 0 auto 20px;
+    background: url(../img/img08.svg) no-repeat;
 }
 
 @media screen and (max-width: 480px) {
@@ -321,6 +360,17 @@ header {
         margin: 20px auto 0;
         padding: 0 15px;
         font-size: 1.4rem;
+    }
+    .pafin-character__wrap {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .pafin-character__box {
+        width: 100%;
+        margin: 3rem auto;
+    }
+    .pafin-glide-box {
+        width:  300px;
     }
     footer {
         text-align: right;
