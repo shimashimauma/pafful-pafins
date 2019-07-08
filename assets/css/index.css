@@ -2,6 +2,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -176,6 +177,9 @@ header {
 
 .pafin-parallax__item {
     text-align: center;
+    background-image: url(../img/img05.svg);
+    background-size: cover;
+}
 /*character*/
 
 .pafin-character__wrap {
@@ -219,6 +223,13 @@ header {
     display: block !important;
     position: relative  !important;
     bottom: 0 !important;
+}
+
+/* sns */
+
+.pafin-section__sns-center {
+    max-width: 400px;
+    margin: 50px auto;
 }
 
 /* footer */
