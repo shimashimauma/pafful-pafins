@@ -210,11 +210,6 @@ header {
     left: 0;
 }
 
-.pafin-parallax__item {
-    text-align: center;
-    background-image: url(../img/img05.svg);
-    background-size: cover;
-}
 /*character*/
 
 .pafin-character__wrap {
@@ -433,5 +428,24 @@ header {
     }
     .footer-copyright {
         text-align: center;
+    }
+    .pafin-parallax__pan {
+        display: none;
+    }
+
+    .pafin-parallax__camera {
+        display: none;
+    }
+
+    .pafin-parallax__makaron {
+        display: none;
+    }
+
+    .pafin-parallax__shinamon {
+        display: none;
+    }
+
+    .pafin-parallax__choco {
+        display: none;
     }
 }
