@@ -170,9 +170,44 @@ header {
 }
 
 .pafin-parallax {
-    height: 400px;
     position: relative;
-    background-color: aqua;
+}
+
+.pafin-parallax__pan {
+    position: absolute;
+    width: 300px;
+    margin-top: 35px;
+    margin-right: 15px;
+    right: 0;
+}
+
+.pafin-parallax__camera {
+    position: absolute;
+    width: 300px;
+    margin-top: 35px;
+    margin-right: 15px;
+    left: 0;
+}
+
+.pafin-parallax__makaron {
+    position: absolute;
+    width: 300px;
+    margin: 500px 0 0;
+    right: 0;
+}
+
+.pafin-parallax__shinamon {
+    position: absolute;
+    width: 300px;
+    right: 0;
+}
+
+.pafin-parallax__choco {
+    position: absolute;
+    width: 300px;
+    margin-top: 35px;
+    margin-right: 15px;
+    left: 0;
 }
 
 .pafin-parallax__item {
